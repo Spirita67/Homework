@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+
+.background{
+    width: 1236px;
+    height: 811px;
+    display: flex;
+}
+.text_1{
+    position: absolute;
+    left: 219px;
+    top: 229px;
+    margin: 3px;
+    margin-left: 25px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+}
+.text_2{
+    position: absolute;
+    left: 230px;
+    top: 248px;
+    margin: 10px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+    color: #247CC0;
+    background-color: #a4f3f5;
+}
+.text_2_3{
+    position: absolute;
+    left: 230px;
+    top: 248px;
+    margin: 10px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+    color: #030D15;
+}
+.text_3{
+    position: absolute;
+    left: 230px;
+    top: 497px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #030D15;
+    opacity: 0.6;
+}
+.image{
+    position: absolute;
+    height: 611px;
+    width: 643px;
+    left: 813px;
+    top: 144px;
+}
+.button{
+    position: absolute;
+    background-color: #247CC0;
+    text-align: center;
+    left: 230px;
+    top: 587px;
+    padding: 25px;
+    margin: 10px;
+    max-width: 80px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.numbers_1{
+    position: absolute;
+    width: 71px;
+    height: 27px;
+    left: 412px;
+    top: 602px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #030D15;
+}
+.numbers_2{
+position: absolute;
+width: 55px;
+height: 27px;
+left: 501px;
+top: 602px;
+font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 27px;
+text-align: center;
+text-decoration-line: line-through;
+color: #030D15;
+opacity: 0.5;
+}
