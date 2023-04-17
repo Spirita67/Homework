@@ -1,0 +1,31 @@
+.body{
+  background-color:rgb(169, 189, 98);
+}
+.container {
+  left: 50%;
+  margin: auto -50px;
+  position: absolute;
+  top: 50%;
+}
+.swing div {
+  border-radius: 50%;
+  float: left;
+  height: 5em;
+  width: 5em;
+  background: red;
+  border-bottom: 5px solid black;
+}
+.swing-l{
+  animation: hit .500s ease-in-out infinite alternate;
+}
+@keyframes hit {
+    0%, 50% { transform: rotate(0deg) translateX(0);}
+    100% { transform: rotate(50deg) translateX(-5em);}
+    }
+.swing-r{
+  animation: hit-two .550s ease-in-out infinite alternate;
+}
+@keyframes hit-two{
+  0%, 50% { transform: rotate(0deg) translateX(0);}
+  100% { transform: rotate(-50deg) translateX(5em);}
+  }
